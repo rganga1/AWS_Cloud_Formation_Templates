@@ -5,3 +5,4 @@ Resources:
     Properties:
       AccessControl: PublicRead #Private, PublicRead, PublicReadWrite, AuthenticatedRead
 # update requires no interruption and no replacement
+      BucketName: Bucket 1 # update requires replacement but older deleted if its empty
