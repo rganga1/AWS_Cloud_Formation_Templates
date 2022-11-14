@@ -1,0 +1,7 @@
+
+Resources:
+  MyS3Bucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      AccessControl: PublicRead #Private, PublicRead, PublicReadWrite, AuthenticatedRead
+# update requires no interruption and no replacement
